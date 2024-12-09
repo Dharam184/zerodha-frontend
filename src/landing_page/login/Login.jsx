@@ -21,7 +21,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent default form action
     try {
-      const response = await axios.post("http://localhost:3002/login", formData);
+      const response = await axios.post("https://zerodha-backend-9wxm.onrender.com/login", formData);
       console.log(response);
       setFeedback(response.data.message); // Display success message
       setFormData({ email: "", password: "" }); // Reset form

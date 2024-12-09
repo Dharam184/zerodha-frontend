@@ -23,7 +23,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent default form action
     try {
-      const response = await axios.post("http://localhost:3002/signup", formData);
+      const response = await axios.post("https://zerodha-backend-9wxm.onrender.com/signup", formData);
       setFeedback(response.data.message);
       setFormData({ username: "", email: "", password: "" }); // Reset form
     } catch (error) {

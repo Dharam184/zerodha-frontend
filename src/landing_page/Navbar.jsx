@@ -47,8 +47,8 @@ function Navbar() {
               </Link>
             </li> 
             <li class="nav-item px-3">
-              <Link class="nav-link active" to="/support">
-                <img src="../public/logo.png" alt="" style={{height:"25px"}}/>
+              <Link class="nav-link active" to="https://zerodha-dashboard-uf0g.onrender.com">
+                <img src="/logo.png" alt="" style={{height:"22px"}}/>
               </Link>
             </li> 
           </ul>
