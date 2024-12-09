@@ -46,6 +46,11 @@ function Navbar() {
                 Support
               </Link>
             </li> 
+            <li class="nav-item px-3">
+              <Link class="nav-link active" to="/support">
+                <img src="../public/logo.png" alt="" style={{height:"25px"}}/>
+              </Link>
+            </li> 
           </ul>
         </div>
       </div>
