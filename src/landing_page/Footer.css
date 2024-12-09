@@ -1,0 +1,25 @@
+a {
+    color: black;
+    font-size: 1.1rem;
+    line-height: 2.6rem;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.footer-content {
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+
+.smart-online {
+    color: blue;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+    opacity: 0.45;
+}
